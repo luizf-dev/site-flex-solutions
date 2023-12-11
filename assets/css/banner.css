@@ -69,12 +69,19 @@ button {
     flex-direction: column;
     width: 90%;
     margin-top: 100px;
+    margin-bottom: 20px;
     justify-content: center;
     align-items: center; } }
 @media (max-width: 600px) {
   .start {
     width: 80%; } }
 @media (max-width: 468px) {
+  h1 {
+    font-size: 1.2em; }
+
+  p {
+    font-size: .8em; }
+
   .banner-text {
     padding: 15px; }
 

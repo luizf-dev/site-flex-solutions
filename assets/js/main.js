@@ -19,3 +19,18 @@ menuLinks.forEach(link => {
         menu.classList.add('fa-bars');
     });
 });
+
+//*altera o background da navbar ao scroll da tela
+const scrollValue = () => {
+
+    var header = document.getElementById('header');
+    var scroll = window.scrollY;
+
+    if(scroll < 10){
+        header.classList.remove('bg-color');
+    }else{
+        header.classList.add('bg-color');
+    }
+}
+
+window.addEventListener('scroll', scrollValue);
