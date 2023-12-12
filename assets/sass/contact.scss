@@ -82,10 +82,16 @@
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     margin-bottom: 20px;
     opacity: 0.9;
+    transition: all ease-in-out .6s;
 }
 
 .contact .text-box:focus{
     background: $bg-inputs;
+    border-radius: 25px;
+    height: 65px;
+    font-weight: 900;
+    font-size: 20px;
+    transition: all ease-in-out .6s;
 }
 
 .contact textarea{
@@ -101,10 +107,15 @@
     margin-bottom: 20px;
     opacity: 0.9;
     resize: vertical;
+    transition: all ease-in-out .6s;
 }
 
 .contact textarea:focus{
     background: $bg-inputs;
+    border-radius: 40px;
+    transition: all ease-in-out .6s;
+    font-weight: 900;
+    font-size: 20px;
 }
 
 .contact .send-btn{

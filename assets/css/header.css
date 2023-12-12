@@ -39,7 +39,8 @@ header {
   font-weight: 900;
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
-  padding: 10px; }
+  padding: 10px;
+  transition: all ease-in-out .6s; }
 
 .icon-menu {
   display: flex;

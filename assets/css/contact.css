@@ -70,10 +70,16 @@
   font-size: 15px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
-  opacity: 0.9; }
+  opacity: 0.9;
+  transition: all ease-in-out .6s; }
 
 .contact .text-box:focus {
-  background: rgba(255, 255, 255, 0.2); }
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  height: 65px;
+  font-weight: 900;
+  font-size: 20px;
+  transition: all ease-in-out .6s; }
 
 .contact textarea {
   background: rgba(63, 33, 130, 0);
@@ -87,10 +93,15 @@
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   opacity: 0.9;
-  resize: vertical; }
+  resize: vertical;
+  transition: all ease-in-out .6s; }
 
 .contact textarea:focus {
-  background: rgba(255, 255, 255, 0.2); }
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  transition: all ease-in-out .6s;
+  font-weight: 900;
+  font-size: 20px; }
 
 .contact .send-btn {
   width: 80%;
