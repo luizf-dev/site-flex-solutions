@@ -26,7 +26,7 @@ h1 {
   flex-direction: column; }
 
 .banner-text > * {
-  margin-bottom: 50px; }
+  margin-bottom: 30px; }
 
 .color-text {
   color: #ffffff; }
@@ -52,6 +52,15 @@ button {
 
 .icon-start {
   color: #13072e; }
+
+.socials-network a i {
+  color: #fff;
+  font-size: 2em;
+  margin-top: 10px;
+  padding: 15px; }
+
+.socials-network a i:hover {
+  color: #efa9fa; }
 
 .banner-img {
   width: 100%;

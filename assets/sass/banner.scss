@@ -33,7 +33,7 @@ h1{
 }
 
 .banner-text > *{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .color-text{
@@ -60,11 +60,22 @@ button{
 }
 
 .start:hover{
-    background-color: $bg-button-1;
+    background-color: $bg-button;
 }
 
 .icon-start{
     color: $color-icon-start;
+}
+
+.socials-network a i{
+    color: #fff;
+    font-size: 2em;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.socials-network a i:hover{
+    color: $bg-logo;
 }
 
 .banner-img{
