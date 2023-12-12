@@ -30,7 +30,8 @@
 
 .contact-info i {
   font-size: 25px;
-  color: #ffffff; }
+  color: #ffffff;
+  text-shadow: 2px 2px 1px  #000; }
 
 .contact-form {
   display: flex;
@@ -46,7 +47,8 @@
 .contact-form h2 {
   color: #ffffff;
   font-size: 35px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 1px  #000; }
 
 .contact {
   display: flex;
@@ -57,30 +59,38 @@
   width: 80%; }
 
 .contact .text-box {
-  background: #000;
+  background: rgba(63, 33, 130, 0);
   color: #fff;
   border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
   width: 100%;
   height: 50px;
   padding: 12px;
   font-size: 15px;
-  border-radius: 5px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   opacity: 0.9; }
 
+.contact .text-box:focus {
+  background: rgba(255, 255, 255, 0.2); }
+
 .contact textarea {
-  background: #000;
+  background: rgba(63, 33, 130, 0);
   color: #fff;
   border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
   width: 100%;
   padding: 12px;
   font-size: 15px;
-  border-radius: 5px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   opacity: 0.9;
   resize: vertical; }
+
+.contact textarea:focus {
+  background: rgba(255, 255, 255, 0.2); }
 
 .contact .send-btn {
   width: 80%;
@@ -106,6 +116,9 @@
 
   .contact-form h2 {
     margin-top: 35px; }
+
+  .contact {
+    width: 90%; }
 
   .contact-form:last-child {
     margin-bottom: 15px; }
